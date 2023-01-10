@@ -4,7 +4,7 @@
 
 ## Alice controller
 
-Minimalist controller example for the Robot Wrestling Tournament.
+Minimalist controller example for the [Humanoid Robot Wrestling Competition](https://github.com/cyberbotics/wrestling).
 Demonstrates how to play a simple motion file. We use the [Motion class](https://cyberbotics.com/doc/reference/motion?tab-language=python) from Webots.
 
 ``` Python
@@ -26,5 +26,7 @@ class Alice (Robot):
 wrestler = Alice()
 wrestler.run()
 ```
+
+[Bob](https://github.com/cyberbotics/wrestling-bob) is a more advanced robot controller able to win against Alice.
 
 [1]: https://webots.cloud/run?version=R2022b&url=https%3A%2F%2Fgithub.com%2Fcyberbotics%2Fwrestling%2Fblob%2Fmain%2Fworlds%2Fwrestling.wbt&type=competition "Leaderboard"
