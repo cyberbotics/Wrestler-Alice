@@ -4,8 +4,9 @@
 
 ## Alice controller
 
-Minimalist controller example for the [Humanoid Robot Wrestling Competition](https://github.com/cyberbotics/wrestling).
+Minimalist Python controller example for the [Humanoid Robot Wrestling Competition](https://github.com/cyberbotics/wrestling).
 Demonstrates how to play a simple motion file. We use the [Motion class](https://cyberbotics.com/doc/reference/motion?tab-language=python) from Webots.
+It could also be programmed in [C](https://github.com/cyberbotics/wresling-alice-c), [C++](https://github.com/cyberbotics/wresling-alice-cpp) or [Java](https://github.com/cyberbotics/wresling-alice-java).
 
 ``` Python
 from controller import Robot, Motion
